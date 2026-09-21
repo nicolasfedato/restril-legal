@@ -1,185 +1,158 @@
 <!DOCTYPE html>
 <html lang="it">
-<testa>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Restril - Privacy Policy e Termini di utilizzo</title>
-
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Restril — Privacy Policy e Termini di utilizzo</title>
   <style>
-    corpo {
-      font-family: Arial, sans-serif;
-      larghezza massima: 850px;
-      margine: 40px automatico;
-      spaziatura interna: 0 20px;
-      altezza riga: 1.6;
-      colore: #222;
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 720px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      line-height: 1.5;
+      color: #0f172a;
     }
 
     h1, h2 {
-      colore: #176b45;
+      color: #0f766e;
     }
 
-    .aggiornato {
-      colore: #666;
+    hr {
+      margin: 3rem 0;
+      border: 0;
+      border-top: 1px solid #e2e8f0;
+    }
+
+    a {
+      color: #0f766e;
     }
   </style>
 </head>
 
-<corpo>
+<body>
 
-<h1>Restril</h1>
-<p>Privacy Policy e Termini di utilizzo</p>
-<p class="updated">Ultimo aggiornamento: 20 settembre 2026</p>
+  <h1>Restril</h1>
+  <p><strong>Privacy Policy e Termini di utilizzo</strong></p>
 
-<h2>Informativa sulla privacy</h2>
+  <hr>
 
-<p>
-Restril è un'applicazione che consente di confrontare i prezzi dei carburanti
-nelle vicinanze dell'interfaccia.
-</p>
+  <h1>Informativa sulla privacy</h1>
 
-<h2>Titolare e contatti</h2>
+  <p>Ultimo aggiornamento: settembre 2026.</p>
 
-<p>
-Restril è gestita da Nicolas Fedato.<br>
-Per informazioni relative alla privacy o all'applicazione è possibile scrivere a:
-<strong> info.restril@gmail.com </strong>
-</p>
+  <p>
+    Titolare: Nicolas Fedato<br>
+    Email: info.restril@gmail.com<br>
+    URL di questa informativa:
+    <a href="https://nicolasfedato.github.io/restril-legal/">
+      https://nicolasfedato.github.io/restril-legal/
+    </a>
+  </p>
 
-<h2>Dati relativi alla posizione</h2>
+  <h2>Natura del servizio</h2>
+  <p>
+    Restril è un’applicazione Android per confrontare i prezzi dei carburanti vicino all’utente.
+    Restril <strong>non richiede registrazione</strong> e <strong>non crea account utente</strong>.
+    Per utilizzare l’app non raccogliamo nome, cognome, email o numero di telefono.
+  </p>
 
-<p>
-Restril può richiedere l'accesso alla posizione del dispositivo esclusivamente
-quando l'utente avvia volontariamente una ricerca dei distributori nelle vicinanze.
-</p>
+  <h2>Posizione</h2>
+  <ul>
+    <li>La posizione del dispositivo è utilizzata <strong>solo quando l’utente avvia intenzionalmente una ricerca</strong>.</li>
+    <li>Non viene utilizzata la posizione in background (<code>ACCESS_BACKGROUND_LOCATION</code> non è utilizzata).</li>
+    <li>In base al permesso concesso, l’app può usare posizione precisa o approssimata.</li>
+    <li>L’utente può selezionare il raggio di ricerca previsto dall’app, attualmente da 1 a 10 km.</li>
+    <li>Le coordinate servono a individuare distributori e prezzi nella zona selezionata.</li>
+    <li>Le informazioni necessarie alla ricerca vengono trasmesse tramite connessione HTTPS al servizio dati MIMIT — Osservaprezzi Carburanti.</li>
+    <li>Restril non conserva permanentemente le coordinate GPS in un proprio database.</li>
+    <li>Sul dispositivo vengono conservate solo preferenze tecniche (carburante, raggio, accettazione dell’informativa). Possono essere eliminate disinstallando l’app o cancellandone i dati.</li>
+  </ul>
 
-<p>
-A seconda dell'autorizzazione concessa dal dispositivo, può essere utilizzata
-la posizione precisa o approssimativa.
-</p>
+  <h2>Dati carburante</h2>
+  <p>
+    I prezzi e le informazioni sui distributori provengono da MIMIT — Osservaprezzi Carburanti.
+    I dati possono non essere aggiornati in tempo reale.
+  </p>
 
-<p>
-Limitare non utilizzare la posizione in background e non conservarla in modo permanente
-le coordinate GPS dell'utente.
-</p>
+  <h2>Ricerca pagata (locale)</h2>
+  <ul>
+    <li>Dopo un pagamento riuscito, Restril può conservare localmente sul dispositivo lo snapshot necessario a ripristinare la stessa ricerca e gli stessi risultati già sbloccati.</li>
+    <li>La consultazione dura al massimo <strong>24 ore</strong>, senza account Restril e senza cronologia permanente.</li>
+    <li>La riapertura entro 24 ore mostra lo snapshot già acquistato e <strong>non aggiorna automaticamente</strong> i prezzi da MIMIT.</li>
+    <li>Alla scadenza o se l’utente modifica volontariamente i parametri, i dati locali vengono eliminati o invalidati.</li>
+  </ul>
 
-<p>
-Le informazioni necessarie alla ricerca, incluse le coordinate della zona di ricerca,
-vengono trasmessi tramite connessione HTTPS al servizio utilizzato per ottenere
-i dati dei distributori e dei prezzi forniti dal Ministero delle Imprese e del Made
-in Italia (MIMIT) - Osservaprezzi Carburanti.
-</p>
+  <h2>Pagamenti</h2>
+  <p>
+    Gli acquisti per sbloccare i risultati di una <strong>singola ricerca</strong>
+    sono gestiti da <strong>Google Play Billing</strong>.
+    Restril non riceve né conserva direttamente i dati della carta di pagamento.
+  </p>
 
-<h2>Dati memorizzati sul dispositivo</h2>
+  <h2>Navigazione</h2>
+  <p>
+    Il pulsante NAVIGA può aprire un’applicazione esterna di navigazione e trasmettere a essa la destinazione selezionata.
+  </p>
 
-<p>
-Restril può memorizzare localmente alcune preferenze necessarie al funzionamento
-dell'app, come il tipo di carburante selezionato, il raggio di ricerca e
-l'avvenuta visualizzazione dell'informativa relativa alla posizione.
-</p>
+  <h2>SDK</h2>
+  <p>
+    Restril non integra SDK pubblicitari, sistemi di analisi o SDK Crashlytics/Firebase/Sentry nell’architettura attuale dell’app.
+  </p>
 
-<p>
-Queste informazioni possono essere eliminate cancellando i dati dell'applicazione
-o disinstallando Restril.
-</p>
+  <h2>Contatti</h2>
+  <p>Nicolas Fedato — info.restril@gmail.com</p>
 
-<h2>Account e dati personali</h2>
+  <hr>
 
-<p>
-Restril non richiede la creazione di un account e non richiede nome, indirizzo
-e-mail o numero di telefono per utilizzare il servizio.
-</p>
+  <h1>Termini d’uso</h1>
 
-<h2>Pagamenti</h2>
+  <p>
+    Titolare / contatto: Nicolas Fedato<br>
+    Contatto: info.restril@gmail.com
+  </p>
 
-<p>
-Gli acquisti effettuati nell'app vengono gestiti tramite Google Play.
-Restril non acquisisce né conserva direttamente i dati della carta di pagamento
-dell'interfaccia.
-</p>
+  <h2>Servizio</h2>
+  <p>
+    Restril è uno strumento informativo di confronto prezzi carburante.
+    Non vende carburante e non gestisce i distributori.
+  </p>
 
-<h2>Pubblicità, analisi e profilazione</h2>
+  <h2>Fonti dei dati</h2>
+  <p>
+    I prezzi e le informazioni derivano da fonti esterne (MIMIT — Osservaprezzi Carburanti).
+    Prezzi, disponibilità e informazioni possono cambiare in qualsiasi momento.
+  </p>
 
-<p>
-Restril non integra sistemi pubblicitari e non utilizza servizi di analisi
-o sistemi di profilazione dell'utente.
-</p>
+  <h2>Nessuna garanzia sul prezzo alla pompa</h2>
+  <p>
+    Restril non garantisce che il prezzo visualizzato coincida sempre con quello presente fisicamente al distributore.
+    Prima dell’acquisto del carburante fa fede il prezzo effettivamente esposto o comunicato presso l’impianto.
+  </p>
 
-<h2>Navigazione verso i distributori</h2>
+  <h2>Distanza e navigazione</h2>
+  <p>
+    Distanza e navigazione sono indicative.
+    Restril non è responsabile dell’aggiornamento effettuato dai gestori degli impianti.
+  </p>
 
-<p>
-Quando l'utente utilizza la funzione di navigazione, Restril può aprire
-un'applicazione esterna di navigazione passando la posizione del distributore
-selezionato come destinazione.
-</p>
+  <h2>Disponibilità del servizio</h2>
+  <p>
+    Il servizio può essere temporaneamente indisponibile per manutenzione, aggiornamenti o problemi di rete o delle fonti dati.
+  </p>
 
-<h2>Fonte dei prezzi</h2>
+  <h2>Pagamenti in-app</h2>
+  <p>
+    Il pagamento sblocca una <strong>singola specifica ricerca</strong>.
+    I risultati di quella ricerca restano consultabili sul dispositivo per <strong>24 ore</strong>
+    senza un nuovo pagamento, ma senza aggiornamento automatico dei prezzi.
+    Modificare i parametri significa iniziare una nuova ricerca;
+    per sbloccare i risultati della nuova ricerca è necessario un nuovo pagamento.
+    Il pagamento è gestito tramite Google Play.
+  </p>
 
-<p>
-I dati relativi ai distributori e ai prezzi dei carburanti provengono dal
-Ministero delle Imprese e del Made in Italy (MIMIT) - Osservaprezzi Carburanti.
-</p>
-
-<p>
-I prezzi visualizzati possono non riflettere in tempo reale il prezzo effettivamente
-praticato presso il distributore. Fa sempre fede il prezzo esposto presso
-l'impianto al momento del rifornimento.
-</p>
-
-<h2>Conservazione dei dati</h2>
-
-<p>
-Restril non mantiene un database permanente contenente la posizione GPS degli utenti.
-Le preferenze memorizzate localmente rimangono sul dispositivo fino alla cancellazione
-dei dati dell'app o alla sua disinstallazione, salvo eventuali funzionalità di backup
-gestito dal sistema operativo.
-</p>
-
-<h2>Sicurezza</h2>
-
-<p>
-Le comunicazioni di rete utilizzate dall'app per la ricerca dei distributori
-avvengono tramite connessioni HTTPS.
-</p>
-
-<h2>Termini di utilizzo</h2>
-
-<p>
-Restril è uno strumento informativo per il confronto dei prezzi dei carburanti.
-Restril non gestisce distributori di carburante e non vende carburante.
-</p>
-
-<p>
-Le informazioni mostrate provengono da fonti esterne e potrebbero contenere
-ritardi, inesattezze o differenze rispetto alla situazione effettiva.
-Il prezzo esposto fisicamente presso il distributore prevale sempre sul prezzo
-visualizza nell'app.
-</p>
-
-<p>
-Le distanze, i percorsi e le indicazioni di navigazione hanno carattere indicativo
-e possono dipendere da servizi o applicazioni esterne.
-</p>
-
-<p>
-Il servizio potrebbe temporaneamente non essere disponibile, ad esempio in caso
-di problemi di rete, indisponibilità delle fonti dati o manutenzione.
-</p>
-
-<h2>Acquisti digitali</h2>
-
-<p>
-Restril può prevedere un acquisto digitale tramite Google Play per sbloccare
-la visualizzazione dei risultati di una ricerca. Prezzo e condizioni
-dell'acquisto vengono mostrati all'utente prima della conferma del pagamento.
-</p>
-
-<h2>Contatti</h2>
-
-<p>
-Per assistenza o informazioni:<br>
-<strong> info.restril@gmail.com </strong>
-</p>
+  <h2>Contatti</h2>
+  <p>Nicolas Fedato — info.restril@gmail.com</p>
 
 </body>
 </html>
